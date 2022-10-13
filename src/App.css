@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.card{
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+    /* margin-left: 40%; */
+}
+.card-text{
+    margin: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.password__generator{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    height: 60px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.copy-button{
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.generate-btn{
+    margin: 5%;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.Alert{
+    text-align: center;
+    width: 30%;
+    height: 50px;
+    margin: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.password-text-holder{
+    overflow-x: auto;
+    background-color: black;
+    border: none;
+    color: white;
 }
