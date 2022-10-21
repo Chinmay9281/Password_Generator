@@ -1,4 +1,4 @@
-# LINK = https://passw0rd-generat0r.netlify.app/
+LINK = https://passw0rd-generat0r.netlify.app/
 
 # Getting Started with Create React App
 
